@@ -1,6 +1,6 @@
 # Hollowlake Version
 
-The Hollowlake version of PADD was modified to work with my Windows Terminal setup and thus it may not work with yours. <br>
+The Hollowlake version of PADD was modified to work with my Windows Terminal setup and thus it may not work with yours.
 It removes the logo and forces the display size to regular. 
 
 ![image](https://user-images.githubusercontent.com/70709767/152078876-da82a496-0b86-4604-8995-00d2805e1a12.png)
