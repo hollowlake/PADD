@@ -5,11 +5,9 @@ It removes the logo and forces the display size to regular.
 
 ![image](https://user-images.githubusercontent.com/70709767/152078641-298e8a92-fd57-4b51-953a-a4c7a96b451f.png)
 
-
+# PADD
 
 ***Note:** PADD has been adopted by the Pi-hole team, thanks to JPMCK for creating this helpful tool!
-
-# PADD
 
 PADD (formerly Chronometer2) is a more expansive version of the original chronometer.sh that is included with [Pi-Hole](https://pi-hole.net). PADD provides in-depth information about your Pi-hole.
 
