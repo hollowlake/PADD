@@ -661,9 +661,8 @@ PrintLogo() {
     CleanEcho ""
   # For the next two, use printf to make sure spaces aren't collapsed
   elif [[ "$1" = "regular" || "$1" = "slim" ]]; then
-    CleanPrintf "$\e[0K\\n"
-    CleanPrintf "$ Pi-hole® ${core_version_heatmap}v${core_version}${reset_text}, Web ${web_version_heatmap}v${web_version}${reset_text}, FTL ${ftl_version_heatmap}v${ftl_version}${reset_text}\e[0K\\n"
-    CleanPrintf "$ PADD ${padd_version_heatmap}${padd_version}${reset_text}${full_status_}${reset_text}\e[0K\\n"
+    CleanPrintf "Pi-hole® ${core_version_heatmap}v${core_version}${reset_text}, Web ${web_version_heatmap}v${web_version}${reset_text}, FTL ${ftl_version_heatmap}v${ftl_version}${reset_text}\e[0K\\n"
+    CleanPrintf "PADD ${padd_version_heatmap}${padd_version}${reset_text}${full_status_}${reset_text}\e[0K\\n"
     CleanEcho ""
   # normal or not defined
   else
